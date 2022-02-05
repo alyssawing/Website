@@ -46,6 +46,10 @@ blockquote, q {
 		content: none;
 	}
 
+white {
+	color: white;
+}
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -1981,7 +1985,7 @@ input, select, textarea {
 	}
 
 	label {
-		color: #61686b;
+		color: #ffffff;
 		display: block;
 		font-size: 0.9em;
 		font-weight: 700;
@@ -2328,7 +2332,7 @@ input, select, textarea {
 			}
 
 			ul.icons li .icon:before {
-				font-size: 1.5em;
+				font-size: 2.5em;
 			}
 
 /* Icons Grid */
@@ -2739,7 +2743,7 @@ input, select, textarea {
 
 		.main .container {
 			padding: 5em 2.5em 8em 2.5em ;
-			background: rgba(255, 255, 255, 0.95);
+			background: rgba(255, 255, 255, 0.75);
 			box-shadow: inset 0 1px 0 0 #dddddd;
 		}
 
@@ -2763,7 +2767,7 @@ input, select, textarea {
 			-webkit-transition: background-color 0.2s ease-in-out;
 			-ms-transition: background-color 0.2s ease-in-out;
 			transition: background-color 0.2s ease-in-out;
-			background-color: rgba(144, 144, 144, 0.075);
+			background-color: rgba(144, 144, 144, 0.5);
 			background-image: url("images/arrow.svg");
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -2802,7 +2806,7 @@ input, select, textarea {
 		}
 
 		#header header {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(140, 209, 168, 1);
 			display: inline-block;
 			padding-bottom: 8em;
 			vertical-align: middle;
@@ -3141,4 +3145,10 @@ input, select, textarea {
 					padding: 0;
 				}
 
+	}
+
+	.maintext {
+		width: auto;
+ 		margin: auto;
+		background-color: rgba(0, 0, 0, 0.25);
 	}
